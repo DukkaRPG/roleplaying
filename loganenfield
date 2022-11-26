@@ -1,0 +1,88 @@
+/*   Tb #35 - The Library of Agony - CiaranSouls Codes 2022. Son libres de revisar el code, sin embargo si usan algo por favor poner créditos c:  */
+
+
+#Lb_Ab{
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    position: relative;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bckLbLOG);
+    border-bottom: 10px solid var(--accentLb);
+
+}
+
+.Lb_cnt{
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+ #Lb_Ab .Lb_cnt i{
+  padding: 4px 0 20px;
+  font-size: 45px;
+  color: var(--Ic_TLoALOG);
+}
+
+.Lb_qte{
+  width:90%;
+  padding:3px 0;
+  margin:4px;
+  font-family: calibri;
+  font-size:10px;
+  text-transform:uppercase;
+  text-align:center;
+  letter-spacing:2px;
+  color:var(--Tx_Lb);
+  border-top: 1px solid var(--accentLbLOG);
+  border-bottom: 1px solid var(--accentLbLOG);
+}
+
+#Lb_Ab .Lb_Th{
+ font-family: 'Lora', serif;
+ font-family: 'Staatliches', cursive;
+ line-height:40px;
+ letter-spacing:3px;
+ font-size:40px;
+ background-image: linear-gradient( var(--accentLbLOG) 20%, var(--accentLb2LOG) 100%);
+ -webkit-background-clip: text; color: transparent;
+}
+
+
+.Lb_cntt{
+  width:80%;
+  padding-top:25px;
+  font-family: sans-serif;
+  text-align:justify;
+  line-height:17px;
+  color:var(--Tx_Lb);
+}
+
+.Lb_cntt i{color:var(--cursiveLbLOG);}
+
+.Lb_cnt_T {
+width:13px;
+ font-family: 'Lora', serif;
+ font-family: 'Staatliches', cursive;
+  margin-right:4px;
+  font-size:40px;
+  float:left;
+  padding:17px;
+  color:var(--accentLbLOG);
+}
+
+
+#Lb_Ab .C{
+ position:absolute; 
+  bottom:-28px; 
+  right:0px;
+  font-size: 11px; 
+  font-family:calibri; 
+  text-decoration: none;
+  color:#959595; 
+  letter-spacing:5px;}
